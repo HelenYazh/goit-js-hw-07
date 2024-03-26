@@ -1,0 +1,38 @@
+body {
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0;
+
+  font-size: 24px;
+
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.96px;
+}
+
+input {
+  margin-bottom: 16px;
+  padding: 8px 16px;
+
+  min-width: 360px;
+
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+
+  border-radius: 4px;
+  border: 1px solid #808080;
+
+  transition: border-color 250ms ease-in-out;
+}
+
+input:hover,
+input:focus {
+  border-color: #000000;
+}
+
+input::placeholder {
+  color: inherit;
+}
